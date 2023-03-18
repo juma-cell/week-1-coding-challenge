@@ -1,13 +1,13 @@
 const calculate = () => {
 
-    let kis = document.querySelector("#kis").value;
+    let bio = document.querySelector("#bio").value;
     let eng = document.querySelector("#eng").value;
     let maths = document.querySelector("#maths").value;
     let his = document.querySelector("#his").value;
     let grades = "";
     
     let totalgrades =
-        parseFloat(kis) +
+        parseFloat(bio) +
         parseFloat(eng) +
         parseFloat(maths) +
         parseFloat(his);
@@ -23,7 +23,7 @@ const calculate = () => {
         grades = "F";
     }
     
-    if (kis == "" || eng == ""
+    if (bio == "" || eng == ""
                 || maths == "" || his == "") {
         document.querySelector("#showdata").innerHTML
             = "Please enter all the fields";
@@ -45,4 +45,4 @@ const calculate = () => {
             Your grade is ${grades}. You are Fail. `;
         }
     }
-};
+}

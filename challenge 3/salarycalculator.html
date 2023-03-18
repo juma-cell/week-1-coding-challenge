@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var basicSalary = prompt("enter your basic salary");
+        var houseRent = prompt("enter your house rent");
+        var medicalAllowance =prompt("enter your medical allowance");
+        var grossSalary = parseInt(basicSalary) +parseInt(houseRent) +parseInt(medicalAllowance) ;
+        var tax = grossSalary*0.2;
+        var netIncome = grossSalary - tax;
+        document.write("<br>your gross pay is\t"+grossSalary)
+        document.write("<br>your netIncome is \t "+netIncome);
+        document.write("<br>tax deducted on gross pay was\t"+tax);
+    </script>
+    
+</body>
+</html>

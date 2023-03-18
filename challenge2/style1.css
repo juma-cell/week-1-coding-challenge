@@ -5,32 +5,36 @@
        }
    
    body {
-    background: #af4125;
-    font-size: 22px;
+    background: #ca5a37;
+    font-size: 30px;
+    padding-top: 20px;
    }
        
    .container {
-    flex: 0 1 700px;
+    
     margin: auto;
-    padding: 10px;
-    padding-left: 500px;
-    padding-top: 150px;
+    padding: 80px;
+    padding-left: 300px;
+    padding-top: 10px;
+    
    }
        
    .screen-body-item {
     flex: 1;
-    padding: 50px;
+    padding: 10px;
    }
    
    input {
-    margin: 10px 10px 10px;
+    margin: 20px 0px 10px;
    }
    
    .showdata {
-    color: rgb(11, 235, 160);
-    font-size: 1.2rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    color: rgb(14, 36, 43);
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
    }
    
    input {
@@ -39,26 +43,26 @@
    
    .button {
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 15px 85px;
+    font-size: 15px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #3d5f3d;
-    background-color: #0b0646;
+    color: #000000;
+    background-color: #ce2812;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #000000;
+    box-shadow: 0 8px #1a0303;
          }
          
    .button:hover {
-     background-color: #f0fcf0
+     background-color: #707c70
    }
          
    .button:active {
-     background-color: #49fa02;
-     box-shadow: 0 5px #070606;
+     background-color: #142b5f;
+     box-shadow: 0 5px #8f3131;
      transform: translateY(4px);
    }
    
